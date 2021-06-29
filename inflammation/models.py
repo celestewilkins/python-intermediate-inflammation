@@ -19,7 +19,7 @@ def load_csv(filename):
 
 
 def daily_mean(data):
-    """Calculate the daily mean of a 2d inflammation data array.
+    """Calculate the daily mean of a 2D inflammation data array.
     :param data: a 2D array with inflammation data (each row contains measurements for a single patient across all days)
     :returns: An array of mean values for each day.
     """
@@ -27,7 +27,7 @@ def daily_mean(data):
 
 
 def daily_max(data):
-    """Calculate the daily max of a 2d inflammation data array.
+    """Calculate the daily max of a 2D inflammation data array.
     :param data: a 2D array with inflammation data (each row contains measurements for a single patient across all days)
     :returns: An array of max values for each day.
     """
@@ -35,7 +35,7 @@ def daily_max(data):
 
 
 def daily_min(data):
-    """Calculate the daily min of a 2d inflammation data array.
+    """Calculate the daily min of a 2D inflammation data array.
         :param data: a 2D array with inflammation data (each row contains measurements for a single patient across all days)
         :returns: An array of min values for each day.
         """
